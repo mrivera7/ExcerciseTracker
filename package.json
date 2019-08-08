@@ -1,0 +1,21 @@
+{
+  "name": "exercisetracker",
+  "version": "1.0.0",
+  "description": "A simple excercise tracking REST api. ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "author": "Michael A. Rivera",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.0-beta2",
+    "mongoose": "^5.6.9",
+    "mongoose-auto-increment": "^5.0.1"
+  }
+}
